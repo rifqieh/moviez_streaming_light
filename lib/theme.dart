@@ -6,13 +6,18 @@ double defaultMargin = 24.0;
 // NOTE: COLORS
 Color kBackgroundColor = Color(0xffFBFBFD);
 Color kBlackColor = Color(0xff0D0846);
-Color kGreyColor = Color(0xff929292);
+Color kWhiteColor = Color(0xffffffff);
+Color kGreyColor = Color(0xffE1E1EA);
 Color kYellowColor = Color(0xffFFAB2E);
 Color kBlueColor = Color(0xff246BFD);
 
 // NOTE: FONT STYLES
 TextStyle blackTextStyle = GoogleFonts.poppins(
   color: kBlackColor,
+);
+
+TextStyle whiteTextStyle = GoogleFonts.poppins(
+  color: kWhiteColor,
 );
 
 TextStyle greyTextStyle = GoogleFonts.poppins(

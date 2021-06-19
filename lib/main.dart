@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/home/home_page.dart';
+import 'package:moviez_streaming_light/pages/search/search_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SearchPage(),
     );
   }
 }
